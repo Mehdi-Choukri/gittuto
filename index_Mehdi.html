@@ -20,21 +20,25 @@
                 </ul>
             
             </div>
-<<<<<<< HEAD
             <div class="nav2">
                 <ul>
                 <li>Changement 1</li>
                 <li>Changement 2</li>
                 </ul>
-                
+                <input type="text" id="nb1">+<input type="text" id="nb2">
+                <input type="button" value ="Calculer" onclick="calculer()">
+                <p>Resultat</p>
+                <input type="text" id="res">
 
             </div>
-=======
-
-<div>Hello world</div>
-
->>>>>>> 0b1f73e6ec587ed29c1328ce2f9cd89e3bf85e1e
     <script src="main.js">
+
+        function calculer()
+        {
+           document.getElementById("res") = document.getElementById("nb1").value +document.getElementById("nb2").value ; 
+        }
+
+
         </script>
     
 </body>
