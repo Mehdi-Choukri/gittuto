@@ -1,3 +1,21 @@
 *{
-    background:white 
+    background:white;
 }
+.topnav {
+    list-style-type:none;
+    float:right;
+}
+.nav {
+    
+    background-color:dark;
+ 
+}
+li{
+   
+   
+    display:inline-block;
+    margin:30px 20px 5px 0px;
+    font-size:110%;
+    
+  
+ }
