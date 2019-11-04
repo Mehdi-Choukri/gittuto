@@ -28,15 +28,15 @@
                      
                         <table>
                             
-                            <tr><td><input type="text" class="screen" size="40"></td></tr>
+                            <tr><td><input type="text" class="screen" id="res_screen" size="40"></td></tr>
                            
                             <tr>
        
                                 <td>
-                                <input type="button" class="numero"  value="9">
-                                <input type="button" class="numero" value="8">
-                                <input type="button" class="numero" value="7">
-                                <input type="button" class="numero" value="+">
+                                <input type="button" class="numero" onclick="ecrire(9)" value="9">
+                                <input type="button" class="numero" onclick="ecrire(8)" value="8">
+                                <input type="button" class="numero" onclick="ecrire(7)" value="7">
+                                <input type="button" class="numero" onclick="ecrire('+')" value="+">
                                
                                </td>
                            
@@ -44,10 +44,10 @@
                            <tr>
        
                                    <td>
-                                   <input type="button" class="numero"  value="6">
-                                   <input type="button" class="numero" value="5">
-                                   <input type="button" class="numero" value="4">
-                                   <input type="button" class="numero" value="-">
+                                   <input type="button" class="numero" onclick="ecrire(6)" value="6">
+                                   <input type="button" class="numero" onclick="ecrire(5)" value="5">
+                                   <input type="button" class="numero" onclick="ecrire(4)" value="4">
+                                   <input type="button" class="numero" onclick="ecrire('-')" value="-">
                                   
                                   </td>
                               
@@ -55,10 +55,10 @@
                               <tr>
        
                                    <td>
-                                   <input type="button" class="numero"  value="3">
-                                   <input type="button" class="numero" value="2">
-                                   <input type="button" class="numero" value="1">
-                                   <input type="button" class="numero" value="0">
+                                   <input type="button" class="numero" onclick="ecrire(3)"  value="3">
+                                   <input type="button" class="numero" onclick="ecrire(2)" value="2">
+                                   <input type="button" class="numero" onclick="ecrire(1)" value="1">
+                                   <input type="button" class="numero" onclick="ecrire(0)" value="0">
                                   
                                   </td>
                                   
@@ -67,9 +67,9 @@
                               <tr>
        
                                    <td>
-                                   <input type="button" class="numero operateur"  value=".">
-                                   <input type="button" class="numero operateur" value="x">
-                                   <input type="button" class="numero operateur" value="/">
+                                   <input type="button" class="numero operateur" onclick="ecrire('.')"  value=".">
+                                   <input type="button" class="numero operateur" onclick="ecrire('x')" value="x">
+                                   <input type="button" class="numero operateur" onclick="ecrire('/')" value="/">
                                    <input type="button" class="numero resultas" value="=">
                                   
                                   </td>
