@@ -12,11 +12,16 @@ function effacer()
 {
     let res=document.getElementById("res_screen").value ;
     let res_final ="";
+   
+    
     for(let i=0;i<res.length-1;i++)
     {
-        res_final[i]=res[i];
+        
+        res_final+=res[i];
+       
     }
     document.getElementById("res_screen").value = res_final;
+    
 }
 
 
