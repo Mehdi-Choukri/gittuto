@@ -1,4 +1,5 @@
 alert('hello world');
+alert('hello its me ' );
 
 /*
 function calculer()
