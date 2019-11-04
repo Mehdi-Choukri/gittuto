@@ -75,3 +75,8 @@ let j ;
 
 
 }
+function Supprimer(){
+
+    document.getElementById("res_screen").value = "";
+
+}
