@@ -50,7 +50,7 @@ li{
  .resultas{
     background: rgb(245, 52, 52);
     color: white;
-    width: 29em;
+    width: 21.5em;
  }
 
  .calculatrice {
@@ -71,7 +71,7 @@ li{
 
    font-family: 'Changa', sans-serif;
  }
- h2{
+ h1{
 
    font-family: 'Changa', sans-serif;
    position: relative;
@@ -79,4 +79,10 @@ li{
    left : 500px;
    color: rgb(245, 52, 52);
 
+ }
+ .Ac{
+   height:4em;
+   width:7em;
+   background:rgb(217, 211, 211);
+   color: black;
  }
