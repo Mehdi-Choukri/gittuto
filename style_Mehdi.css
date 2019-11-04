@@ -1,6 +1,8 @@
 *{
-    background:white;
+    background-color: rgb(217, 211, 211);
+
 }
+/*le style de Menu */
 .topnav {
     list-style-type:none;
     float:right;
@@ -19,12 +21,33 @@ li{
     
   
  }
+ /*le style de calculatrice */
 .numero{
-     height:50px;
-     width:62.5px;
+    height:4em;
+    width:7em;
+    background:rgb(255, 255, 255);
+    font-size:15px;
+    font-family: 'Changa', sans-serif;
+ }
+ .operateur{
+
+    height:4em;
+    width:7em;
+    background:rgb(217, 211, 211);
+    list-style-type:none;
+    font-size:15px;
+    font-family: 'Changa', sans-serif;
+
  }
  .screen
  {
-    height:50px;
-    width:260px;
+    width:32em;
+    height:5em;
+    background:rgb(31, 31, 49);
+    color:white;
+   
+ }
+ .resultas{
+    background: rgb(245, 52, 52);
+    color: white;
  }
