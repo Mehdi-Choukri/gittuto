@@ -7,6 +7,19 @@ function calculer()
    document.getElementById("res").value = nb1+nb2
 }
 */
+
+function effacer()
+{
+    let res=document.getElementById("res_screen").value ;
+    let res_final ="";
+    for(let i=0;i<res.length-1;i++)
+    {
+        res_final[i]=res[i];
+    }
+    document.getElementById("res_screen").value = res_final;
+}
+
+
 function multiplier()
 {
     let nb1 =Number(document.getElementById("nbr1").value);
