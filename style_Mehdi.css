@@ -57,7 +57,7 @@ li{
 
     position :relative;
 
-    top:120px;
+    top:40px;
 
     left : 380px;
 
@@ -65,9 +65,10 @@ li{
  .info{
    position :relative;
 
-   top:130px;
+   
 
    left : 480px;
+   bottom: 60px;
 
    font-family: 'Changa', sans-serif;
  }
@@ -75,7 +76,7 @@ li{
 
    font-family: 'Changa', sans-serif;
    position: relative;
-   top:120px;
+   top:20px;
    left : 500px;
    color: rgb(245, 52, 52);
 
